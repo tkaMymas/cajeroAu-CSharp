@@ -1,0 +1,15 @@
+C:\Users\Juane\Documents\Programación\C#\caAu\caAu\bin\Debug\net6.0\caAu.exe
+C:\Users\Juane\Documents\Programación\C#\caAu\caAu\bin\Debug\net6.0\caAu.deps.json
+C:\Users\Juane\Documents\Programación\C#\caAu\caAu\bin\Debug\net6.0\caAu.runtimeconfig.json
+C:\Users\Juane\Documents\Programación\C#\caAu\caAu\bin\Debug\net6.0\caAu.dll
+C:\Users\Juane\Documents\Programación\C#\caAu\caAu\bin\Debug\net6.0\caAu.pdb
+C:\Users\Juane\Documents\Programación\C#\caAu\caAu\obj\Debug\net6.0\caAu.csproj.AssemblyReference.cache
+C:\Users\Juane\Documents\Programación\C#\caAu\caAu\obj\Debug\net6.0\caAu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juane\Documents\Programación\C#\caAu\caAu\obj\Debug\net6.0\caAu.AssemblyInfoInputs.cache
+C:\Users\Juane\Documents\Programación\C#\caAu\caAu\obj\Debug\net6.0\caAu.AssemblyInfo.cs
+C:\Users\Juane\Documents\Programación\C#\caAu\caAu\obj\Debug\net6.0\caAu.csproj.CoreCompileInputs.cache
+C:\Users\Juane\Documents\Programación\C#\caAu\caAu\obj\Debug\net6.0\caAu.dll
+C:\Users\Juane\Documents\Programación\C#\caAu\caAu\obj\Debug\net6.0\refint\caAu.dll
+C:\Users\Juane\Documents\Programación\C#\caAu\caAu\obj\Debug\net6.0\caAu.pdb
+C:\Users\Juane\Documents\Programación\C#\caAu\caAu\obj\Debug\net6.0\caAu.genruntimeconfig.cache
+C:\Users\Juane\Documents\Programación\C#\caAu\caAu\obj\Debug\net6.0\ref\caAu.dll
