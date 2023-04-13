@@ -1,0 +1,15 @@
+C:\Users\Juane\Documents\GitHub\cajeroAu-CSharp\caAu\obj\Debug\net6.0\cajeroAutomatico.csproj.AssemblyReference.cache
+C:\Users\Juane\Documents\GitHub\cajeroAu-CSharp\caAu\obj\Debug\net6.0\cajeroAutomatico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juane\Documents\GitHub\cajeroAu-CSharp\caAu\obj\Debug\net6.0\cajeroAutomatico.AssemblyInfoInputs.cache
+C:\Users\Juane\Documents\GitHub\cajeroAu-CSharp\caAu\obj\Debug\net6.0\cajeroAutomatico.AssemblyInfo.cs
+C:\Users\Juane\Documents\GitHub\cajeroAu-CSharp\caAu\obj\Debug\net6.0\cajeroAutomatico.csproj.CoreCompileInputs.cache
+C:\Users\Juane\Documents\GitHub\cajeroAu-CSharp\caAu\bin\Debug\net6.0\cajeroAutomatico.exe
+C:\Users\Juane\Documents\GitHub\cajeroAu-CSharp\caAu\bin\Debug\net6.0\cajeroAutomatico.deps.json
+C:\Users\Juane\Documents\GitHub\cajeroAu-CSharp\caAu\bin\Debug\net6.0\cajeroAutomatico.runtimeconfig.json
+C:\Users\Juane\Documents\GitHub\cajeroAu-CSharp\caAu\bin\Debug\net6.0\cajeroAutomatico.dll
+C:\Users\Juane\Documents\GitHub\cajeroAu-CSharp\caAu\bin\Debug\net6.0\cajeroAutomatico.pdb
+C:\Users\Juane\Documents\GitHub\cajeroAu-CSharp\caAu\obj\Debug\net6.0\cajeroAutomatico.dll
+C:\Users\Juane\Documents\GitHub\cajeroAu-CSharp\caAu\obj\Debug\net6.0\refint\cajeroAutomatico.dll
+C:\Users\Juane\Documents\GitHub\cajeroAu-CSharp\caAu\obj\Debug\net6.0\cajeroAutomatico.pdb
+C:\Users\Juane\Documents\GitHub\cajeroAu-CSharp\caAu\obj\Debug\net6.0\cajeroAutomatico.genruntimeconfig.cache
+C:\Users\Juane\Documents\GitHub\cajeroAu-CSharp\caAu\obj\Debug\net6.0\ref\cajeroAutomatico.dll

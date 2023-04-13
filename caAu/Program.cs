@@ -4,6 +4,8 @@ class Program
 {
     public static int menuAccion;
     public static int dineroTotal = 0;
+    public static int dineroIngresado = 0;
+    public static int dineroRetirado = 0;
     public static bool ejecucion = true;
 
     static void Main()
@@ -17,7 +19,14 @@ class Program
         {
             Console.WriteLine("Bienvenidos a CityBank");
             Console.WriteLine("Ingrese una Opción (1)Depositar (2)Retirar (3)Consultar (4)Salir");
-            menuAccion = Convert.ToInt32(Console.ReadLine());
+            try
+            {
+                menuAccion = Convert.ToInt32(Console.ReadLine());
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine();
+            }
 
             switch (menuAccion)
             {
@@ -45,31 +54,49 @@ class Program
     {
         Console.WriteLine();
         Console.WriteLine("Ingrese la cantidad de dinero:");
-        int dineroIngresado = Convert.ToInt32(Console.ReadLine());
+        try
+        {
+            dineroIngresado = Convert.ToInt32(Console.ReadLine());
+        }
+        catch
+        {
+            Console.WriteLine("\nIngrese un valor númerico.\n");
+        }
+        if (dineroIngresado > 0)
+        {
+            dineroTotal += dineroIngresado;
 
-        dineroTotal += dineroIngresado;
-
-        Console.WriteLine();
-        Console.WriteLine($"Se ingreso {dineroIngresado}$ al banco. \n");
+            Console.WriteLine($"\nSe ingreso {dineroIngresado}$ al banco. \n");
+        }
     }
 
     static void Retirar()
     {
         Console.WriteLine();
         Console.WriteLine("Ingrese la cantidad de dinero:");
-        int dineroRetirado = Convert.ToInt32(Console.ReadLine());
-
-        if (dineroTotal >= dineroRetirado)
+        try
         {
-            dineroTotal = dineroTotal - dineroRetirado;
-
-            Console.WriteLine();
-            Console.WriteLine($"Se retiro -{dineroRetirado}$ del banco. \n");
+            dineroRetirado = Convert.ToInt32(Console.ReadLine());
         }
-        else
+        catch
         {
-            Console.WriteLine();
-            Console.WriteLine("No hay saldo suficiente. \n");
+            Console.WriteLine("\nIngrese un valor númerico.\n");
+        }
+        if (dineroRetirado > 0)
+        {
+            if (dineroTotal >= dineroRetirado)
+            {
+                dineroTotal = dineroTotal - dineroRetirado;
+
+                Console.WriteLine();
+                Console.WriteLine($"Se retiro {dineroRetirado}$ del banco. \n");
+            }
+            else
+            {
+                Console.WriteLine();
+                Console.WriteLine("No hay saldo suficiente. \n");
+            }
+
         }
     }
 
@@ -82,6 +109,5 @@ class Program
     static void Salir()
     {
         ejecucion = false;
-        Console.WriteLine("Saliendo del banco...");
     }
 }
