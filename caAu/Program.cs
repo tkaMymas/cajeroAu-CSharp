@@ -19,11 +19,16 @@ class Program
         {
             Console.WriteLine("Bienvenidos a CityBank");
             Console.WriteLine("Ingrese una Opción (1)Depositar (2)Retirar (3)Consultar (4)Salir");
+
             try
             {
                 menuAccion = Convert.ToInt32(Console.ReadLine());
             }
             catch (FormatException ex)
+            {
+                Console.WriteLine();
+            }
+            catch (OverflowException ex)
             {
                 Console.WriteLine();
             }
@@ -43,7 +48,7 @@ class Program
                     Salir();
                     break;
                 default:
-                    Console.WriteLine("Opción no valida. \n");
+                    Console.WriteLine("Opción no valida.\n");
                     break;
             }
 
@@ -54,14 +59,20 @@ class Program
     {
         Console.WriteLine();
         Console.WriteLine("Ingrese la cantidad de dinero:");
+
         try
         {
             dineroIngresado = Convert.ToInt32(Console.ReadLine());
         }
-        catch
+        catch (FormatException ex)
         {
             Console.WriteLine("\nIngrese un valor númerico.\n");
         }
+        catch (OverflowException ex)
+        {
+            Console.WriteLine("\nIngrese un valor númerico más pequeño.\n");
+        }
+
         if (dineroIngresado > 0)
         {
             dineroTotal += dineroIngresado;
@@ -74,14 +85,20 @@ class Program
     {
         Console.WriteLine();
         Console.WriteLine("Ingrese la cantidad de dinero:");
+
         try
         {
             dineroRetirado = Convert.ToInt32(Console.ReadLine());
         }
-        catch
+        catch (FormatException ex)
         {
             Console.WriteLine("\nIngrese un valor númerico.\n");
         }
+        catch (OverflowException ex)
+        {
+            Console.WriteLine("\nIngrese un valor númerico más pequeño.\n");
+        }
+
         if (dineroRetirado > 0)
         {
             if (dineroTotal >= dineroRetirado)
